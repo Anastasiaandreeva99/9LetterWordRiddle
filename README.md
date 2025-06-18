@@ -18,5 +18,7 @@ Then I start generating my words from one letter words which are A and I and I g
 
 
 WIth this dictionary that i have the result is 775 words.
+
 The time is ~1s without loading the data and ~2,5 s with loading it.
+
 Possible optimization is when creating the map not to generate shorter words(keys) that do not have A or I.
