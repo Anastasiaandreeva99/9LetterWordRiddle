@@ -32,7 +32,7 @@ class WordsFinder {
 
         }
 
-        return currentGeneration.stream().filter(word -> word.length() == 9).sorted().toList();
+        return currentGeneration.stream().filter(word -> word.length() == 9).toList();
     }
 
     /**
